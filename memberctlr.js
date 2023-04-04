@@ -16,7 +16,7 @@ function memberctlr(){
                   res.send(result.fname);
 
                } else {
-                  res.status(404).send("not found.");
+                  res.status(404).send("member not foundss.");
                }
                
             }
